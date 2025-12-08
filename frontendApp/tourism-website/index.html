@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>KecomeX Tours & Safaris</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="img/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="img/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="img/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px">
+            <span>
+                <a href="#home" class="brand">
+                    <img
+                        class="img2"
+                        src="./img/mountain.png"
+                        width="40"
+                        style="margin: -25px -10px -25px -20px"
+                    />
+                    <h1 class="logo">KecomeX Safaris</h1>
+                </a>
+            </span>
+            <ul class="nav-links">
+                <li><a href="#home" id="pri" class="active cir_border">Home</a></li>
+                <li><a href="#events" id="sec" class="cir_border">Events</a></li>
+                <li><a href="#destinations" id="tri" class="cir_border">Destinations</a></li>
+                <li class="dropdown">
+                    <a href="#trips" id="quad" class="cir_border">Trips</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#pkg-3day">3-Day Kenya Escape</a></li>
+                        <li><a href="#pkg-5day">5-Day Safari & Coast</a></li>
+                        <li><a href="#pkg-7day">7-Day Bush to Coast Adventure</a></li>
+                        <li><a href="#pkg-10day">10-Day Wildlife, City & Coast</a></li>
+                        <li><a href="#pkg-14day">14-Day Signature Wildlife, City & Beach</a></li>
+                        <li><a href="#pkg-30day">30-Day Grand Kenya Expedition</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about" id="quint" class="cir_border">About</a></li>
+                <li class="dropdown">
+                    <a href="#services" id="hex" class="cir_border">Other Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#services">Airport Transfer</a></li>
+                        <li><a href="#services">Flight Booking</a></li>
+                        <li><a href="#services">Hotel Reservation</a></li>
+                        <li><a href="#services">Visa Processing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#conservation" id="hept" class="cir_border">Conservation</a></li>
+                <li><a href="#contact" id="oct" class="cir_border">Contact</a></li>
+                <li>
+                    <div>
+                        <input type="checkbox" class="checkbox dark" id="checkbox" />
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class="fa fa-sun-o"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+        </nav>
+        <!--navbar-->
+
+        <header id="home">
+            <div class="overlay"></div>
+            <div class="hero-slider">
+                <div class="slide active" style="background-image: linear-gradient(180deg, rgba(5,5,10,0.35), rgba(5,5,10,0.7)), url('./img/carousel-img1.jpg');">
+                    <div class="header-content">
+                        <p class="eyebrow">KecomeX Tours & Safaris</p>
+                        <h2 id="quote">Witness the Great Migration in Maasai Mara</h2>
+                        <div class="line"></div>
+                        <h1>Luxury safaris, curated by locals.</h1>
+                        <div class="cta-row">
+                            <a href="#trips" class="ctn">View Trips</a>
+                            <a href="#contact" class="ctn ghost">Plan My Safari</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(180deg, rgba(5,5,10,0.35), rgba(5,5,10,0.7)), url('./img/carousel-img3.jpg');">
+                    <div class="header-content">
+                        <p class="eyebrow">Coast & Ocean</p>
+                        <h2 id="quote">Diani, Watamu & Kisite Marine Adventures</h2>
+                        <div class="line"></div>
+                        <h1>Pristine beaches, dhow cruises, world-class diving.</h1>
+                        <div class="cta-row">
+                            <a href="#destinations" class="ctn">Explore Destinations</a>
+                            <a href="#contact" class="ctn ghost">Book My Ocean Trip</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(180deg, rgba(5,5,10,0.35), rgba(5,5,10,0.7)), url('./img/carousel-img5.jpg');">
+                    <div class="header-content">
+                        <p class="eyebrow">Culture & City</p>
+                        <h2 id="quote">Mombasa, Fort Jesus & Swahili Heritage</h2>
+                        <div class="line"></div>
+                        <h1>Immersive city tours with seasoned guides.</h1>
+                        <div class="cta-row">
+                            <a href="#events" class="ctn">Upcoming Events</a>
+                            <a href="#contact" class="ctn ghost">Talk to Planner</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Events -->
+        <section class="events" id="events">
+            <div class="container">
+                <div class="title">
+                    <h1 class="dark">Upcoming Major Events</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row cards-2">
+                    <article class="card col">
+                        <img class="card-img" src="./img/img1.jfif" alt="FDI Summit" />
+                        <h4 class="dark">KecomeX Business Club International FDI Summit</h4>
+                        <p class="font-color">
+                            Date: January 30–31. A global investment summit connecting investors, entrepreneurs, governments and innovators—paired with bespoke safari and coastal extensions.
+                        </p>
+                        <a href="#contact" class="ctn">Request package</a>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img2.jfif" alt="Women in business" />
+                        <h4 class="dark">Kehosa Women-in-Business Summit</h4>
+                        <p class="font-color">
+                            Date: February 6–7. Empowering women entrepreneurs across Africa, integrated with curated city, beach and safari experiences for delegates.
+                        </p>
+                        <a href="#contact" class="ctn">Reserve your spot</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destinations -->
+        <section class="events" id="destinations">
+            <div class="container">
+                <div class="title">
+                    <h1 class="dark">Signature Destinations</h1>
+                    <div class="line"></div>
+                    <p class="section-intro">
+                        From the Great Migration in Maasai Mara to the turquoise waters of the Kenyan coast, KecomeX curates journeys that blend wildlife, ocean, culture and comfort.
+                    </p>
+                </div>
+                <div class="grid cards-3 cards-dest">
+                    <article class="card col">
+                        <img class="card-img" src="./img/carousel-img1.jpg" alt="Maasai Mara" />
+                        <div class="card-body">
+                            <h4 class="dark">Maasai Mara National Reserve</h4>
+                            <p class="font-color">Great Migration, Big Five safaris, hot-air balloons and Maasai village tours.</p>
+                        </div>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/carousel-img2.jpg" alt="Amboseli" />
+                        <div class="card-body">
+                            <h4 class="dark">Amboseli National Park</h4>
+                            <p class="font-color">Iconic elephant herds with Mount Kilimanjaro backdrop—a photographer’s dream.</p>
+                        </div>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/carousel-img3.jpg" alt="Tsavo" />
+                        <div class="card-body">
+                            <h4 class="dark">Tsavo East & West</h4>
+                            <p class="font-color">Kenya’s largest wilderness—Lugard Falls, Mzima Springs and red elephants.</p>
+                        </div>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img3.png" alt="Shimba Hills" />
+                        <div class="card-body">
+                            <h4 class="dark">Shimba Hills</h4>
+                            <p class="font-color">Forest safaris, Sable antelopes, Sheldrick Falls and tranquil nature trails.</p>
+                        </div>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img4.png" alt="Coast" />
+                        <div class="card-body">
+                            <h4 class="dark">Mombasa, Watamu & Malindi</h4>
+                            <p class="font-color">Old Town, Fort Jesus, Gede Ruins, Vasco da Gama Pillar and coral reefs.</p>
+                        </div>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img5.png" alt="Diani" />
+                        <div class="card-body">
+                            <h4 class="dark">Diani Beach</h4>
+                            <p class="font-color">Top-ranked beach with coral reefs, dhow cruises, skydiving and nightlife.</p>
+                        </div>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/img6.png" alt="Kisite" />
+                        <div class="card-body">
+                            <h4 class="dark">Kisite–Mpunguti Marine Park</h4>
+                            <p class="font-color">Dolphin watching, snorkeling, dhow sailing and mangrove ecosystems.</p>
+                        </div>
+                    </article>
+                    <article class="card col">
+                        <img src="./img/carousel-img4.jpg" alt="Culture" />
+                        <div class="card-body">
+                            <h4 class="dark">Cultural & Historical</h4>
+                            <p class="font-color">Swahili heritage, Kaya forests, village tours and coastal cuisine.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Destinations -->
+        <section class="cards-section" id="our-destinations">
+            <div class="title">
+                <h1 class="font-color">Our Destinations</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container grid cards-2 dest-list">
+                <article class="info-card">
+                    <h4>Maasai Mara National Reserve</h4>
+                    <p>World-famous for the Great Migration, Big Five sightings, hot-air balloon safaris, and Maasai cultural encounters.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Amboseli National Park</h4>
+                    <p>Enormous elephant herds set against snowcapped Mount Kilimanjaro—perfect for photography.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Tsavo East & Tsavo West</h4>
+                    <p>Kenya’s largest wilderness featuring Lugard Falls, Shetani Lava Flow, red elephants, and rugged landscapes.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Shimba Hills National Reserve</h4>
+                    <p>Close to Diani; forest safaris, Sable antelopes, Sheldrick Falls and serene nature walks.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Mombasa City Tours</h4>
+                    <p>Fort Jesus, Old Town, spice markets, Elephant Tusks, Mama Ngina Waterfront, Swahili culture and heritage.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Watamu & Malindi</h4>
+                    <p>Gede Ruins, Watamu Marine Park, dolphin watching, pristine beaches, and rich coastal history.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Diani Beach</h4>
+                    <p>Africa’s top-rated beach with coral reefs, water sports, skydiving, dhow cruises and vibrant nightlife.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Kisite–Mpunguti Marine Park / Wasini Island</h4>
+                    <p>Dolphin watching, snorkeling, marine conservation, Swahili dhow sailing and mangrove ecosystems.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Cultural & Historical Experiences</h4>
+                    <p>Gede Ruins, Kaya Forests, Vasco da Gama Pillar, Old Town & Fort Jesus, plus authentic village tours.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Trips -->
+        <section id="trips" class="cards-section">
+            <div class="title">
+                <h1 class="font-color">Featured Trips</h1>
+                <div class="line"></div>
+                <p class="section-intro">Domestic and coastal highlights inspired by Trip Magical Adventures.</p>
+            </div>
+            <div class="container grid cards-3 trip-grid">
+                <article class="trip-card">
+                    <img src="./img/carousel-img1.jpg" alt="Maasai Mara" />
+                    <div class="trip-body">
+                        <div class="trip-meta">
+                            <span class="pill ghost">3 Days</span>
+                            <span class="pill ghost">From $650</span>
+                        </div>
+                        <h4>Maasai Mara Big Five Safari</h4>
+                        <p>Game drives, Great Migration seasons, Maasai village visit, luxury camp stay.</p>
+                        <div class="trip-actions">
+                            <a class="ctn" href="#contact">Book now</a>
+                            <a class="link" href="#destinations">View details</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="trip-card">
+                    <img src="./img/carousel-img3.jpg" alt="Diani & Kisite" />
+                    <div class="trip-body">
+                        <div class="trip-meta">
+                            <span class="pill ghost">4 Days</span>
+                            <span class="pill ghost">From $720</span>
+                        </div>
+                            <h4>Diani Beach & Kisite Marine</h4>
+                        <p>Dolphin watching, snorkeling, dhow cruise, beach villa stay with chef service.</p>
+                        <div class="trip-actions">
+                            <a class="ctn" href="#contact">Book now</a>
+                            <a class="link" href="#destinations">View details</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="trip-card">
+                    <img src="./img/carousel-img2.jpg" alt="Amboseli" />
+                    <div class="trip-body">
+                        <div class="trip-meta">
+                            <span class="pill ghost">3 Days</span>
+                            <span class="pill ghost">From $580</span>
+                        </div>
+                        <h4>Amboseli & Shimba Escapes</h4>
+                        <p>Elephants with Kilimanjaro views, forest waterfalls, guided nature walks.</p>
+                        <div class="trip-actions">
+                            <a class="ctn" href="#contact">Book now</a>
+                            <a class="link" href="#destinations">View details</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Trip Packages Detail -->
+        <section id="packages" class="cards-section">
+            <div class="title">
+                <h1 class="font-color">Arrival Experience</h1>
+                <div class="line"></div>
+                <p class="section-intro">Your adventure begins the moment you land.</p>
+            </div>
+            <div class="container arrival-grid">
+                <article class="info-card arrival">
+                    <h4>How We Receive Our Guests</h4>
+                    <ul class="info-list">
+                        <li>Meet-and-greet at the airport arrival gate</li>
+                        <li>Multilingual staff</li>
+                        <li>Bottled water + refreshing towels</li>
+                        <li>Welcome folder (itinerary, maps, cultural etiquette, emergency contacts)</li>
+                        <li>Luggage assistance</li>
+                        <li>Transfer to luxury 4x4 Land Cruiser or private coastal shuttle</li>
+                    </ul>
+                    <p class="note">“Your adventure begins the moment you land.”</p>
+                </article>
+            </div>
+
+            <div class="title" id="pkg-14day">
+                <h1 class="font-color">14-Day Signature Kenya Wildlife, City & Coast Experience</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container package-card">
+                <div class="package-body">
+                    <h4>Arrival</h4>
+                    <p>Meet & greet at JKIA or Moi Airport by multilingual KecomeX staff. Welcome Pack, luggage assistance, bottled water, intro to guide and transfer to Nairobi hotel.</p>
+                    <h4>Days 2–4 – Maasai Mara (Bush Safari Begins)</h4>
+                    <p>Luxury 4x4 Land Cruiser transfers, game drives, sunrise safaris, bush picnics, Maasai village visit.</p>
+                    <h4>Days 5–6 – Amboseli National Park</h4>
+                    <p>Stay facing Mt. Kilimanjaro. Sunrise safaris, elephant herds, scenic viewpoints.</p>
+                    <h4>Days 7–8 – Tsavo West & Tsavo East</h4>
+                    <p>Mzima Springs walking tour, Shetani Lava Flow, Big Cats & Red Elephants.</p>
+                    <h4>Day 9 – Mombasa City Tour</h4>
+                    <p>Fort Jesus, Old Town, Spice Market, Mama Ngina Waterfront, Swahili lunch.</p>
+                    <h4>Days 10–12 – Diani Beach Experience</h4>
+                    <p>Snorkeling, skydiving, jet skis, sunset dinners, spa sessions.</p>
+                    <h4>Day 13 – Wasini Island & Kisite Marine Park</h4>
+                    <p>Dolphin watching, snorkelling, Swahili seafood buffet, dhow sailing.</p>
+                    <h4>Day 14 – Watamu & Malindi</h4>
+                    <p>Arabuko-Sokoke Forest, Gede Ruins, Marine Park, Vasco da Gama Pillar → Drop-off.</p>
+                </div>
+            </div>
+
+            <div class="title" id="pkg-10day">
+                <h1 class="font-color">10-Day Wildlife, City & Coast Safari</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container package-card">
+                <div class="package-body">
+                    <p>Day 1: Airport pick-up → Nairobi</p>
+                    <p>Days 2–4: Maasai Mara safari</p>
+                    <p>Days 5–6: Amboseli safari</p>
+                    <p>Day 7–8: Tsavo East & West</p>
+                    <p>Day 9: Mombasa City Tour</p>
+                    <p>Day 10–11: Diani Beach + departure support</p>
+                </div>
+            </div>
+
+            <div class="title" id="pkg-7day">
+                <h1 class="font-color">7-Day Bush to Coast Adventure</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container package-card">
+                <div class="package-body">
+                    <p>Nairobi arrival → Maasai Mara Safari → Amboseli → Mombasa City → Diani Beach.</p>
+                    <p>Seamless handover from Nairobi Team → Coastal Team.</p>
+                </div>
+            </div>
+
+            <div class="title" id="pkg-5day">
+                <h1 class="font-color">5-Day Safari & Coast</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container package-card">
+                <div class="package-body">
+                    <p>Nairobi pick-up → Amboseli → Tsavo East → Mombasa → Diani.</p>
+                    <p>Fast-paced itinerary crafted for short travel windows.</p>
+                </div>
+            </div>
+
+            <div class="title" id="pkg-3day">
+                <h1 class="font-color">3-Day Kenya Escape</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container package-card">
+                <div class="package-body">
+                    <p>Guests in Mombasa/Diani picked from hotel → Tsavo East/West Safari → Mombasa City Tour → return to coast.</p>
+                </div>
+            </div>
+
+            <div class="title" id="pkg-30day">
+                <h1 class="font-color">30-Day Grand Kenya Expedition</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container package-card">
+                <div class="package-body">
+                    <p>Full-month exploration: Maasai Mara, Samburu, Amboseli, Tsavo, Nairobi culture tours, Mombasa City, Diani Beach, Lamu Island, Watamu, Malindi, Wasini Island.</p>
+                    <p>Luxury accommodations + dedicated tour manager for the entire month.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <div class="title">
+                <h1 class="font-color">About KecomeX</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container about-grid">
+                <div class="about-card">
+                    <h3>Who We Are</h3>
+                    <p>
+                        KecomeX Tours and Safaris Limited is a premier travel company based in Diani Beach, Kenya and a proud subsidiary of KecomeX Business Club International. We craft unforgettable safaris, ocean adventures, city tours and cultural experiences across Kenya.
+                    </p>
+                    <p>
+                        Our coastal headquarters gives clients direct access to pristine beaches, marine life and world heritage sites—delivered with world-class service and safety.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <h3>Mission</h3>
+                    <p>
+                        To provide authentic, safe and memorable travel experiences while supporting local communities, environmental conservation and sustainable tourism.
+                    </p>
+                    <h3>Vision</h3>
+                    <p>
+                        To be East Africa’s most trusted and innovative travel and safari partner for international and domestic tourists.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <h3>Core Values</h3>
+                    <div class="pill-grid">
+                        <span class="pill">Professionalism</span>
+                        <span class="pill">Integrity</span>
+                        <span class="pill">Sustainable Tourism</span>
+                        <span class="pill">Community Empowerment</span>
+                        <span class="pill">Excellence in Service</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Services -->
+        <section class="explore services" id="services">
+            <div class="explore-content">
+                <h1>Other Services</h1>
+                <div class="line"></div>
+                <p>
+                    Full-service travel support for seamless journeys: curated stays, fast transfers, and documentation handled by experts.
+                </p>
+                <div class="pill-row services-grid">
+                    <div class="service-card">
+                        <h4>Airport Transfer</h4>
+                        <p>Private, safe, on-time pickups in Nairobi, Mombasa and Diani.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Flight Booking</h4>
+                        <p>Regional and international routes with best-available fares.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Hotel Reservation</h4>
+                        <p>Handpicked villas, lodges, camps and boutique stays.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Visa Processing</h4>
+                        <p>Guided eTA and visa support with up-to-date advisories.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conservation & Community -->
+        <section class="tours" id="conservation">
+            <div class="container row">
+                <div class="col content-col">
+                    <h1 class="font-color">Community & Conservation</h1>
+                    <div class="line"></div>
+                    <p>
+                        We collaborate with schools, women groups, community organizations and conservation partners to uplift livelihoods through tourism.
+                    </p>
+                    <div class="bullet-grid">
+                        <div class="bullet">
+                            <h4>Mangrove Planting – Wasini / Kisite–Mpunguti</h4>
+                            <p>Hands-on conservation with local guides and researchers.</p>
+                        </div>
+                        <div class="bullet">
+                            <h4>Shimba Hills Forest Restoration</h4>
+                            <p>Reforestation, nature trails and community ranger support.</p>
+                        </div>
+                        <div class="bullet">
+                            <h4>Arabuko–Sokoke Protection</h4>
+                            <p>Support endemic species and coastal forest conservation.</p>
+                        </div>
+                        <div class="bullet">
+                            <h4>School & Village Tree Drives</h4>
+                            <p>Join volunteer activities on request during your stay.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-col info-panel">
+                    <h3>Travel Information (International)</h3>
+                    <ul class="info-list">
+                        <li>Kenya uses Electronic Travel Authorization (eTA) — we guide you step-by-step.</li>
+                        <li>Official government links and advisories provided for safe travel.</li>
+                        <li>Airport arrival assistance and 24/7 customer support.</li>
+                    </ul>
+                    <div class="note">Ask to bundle conservation volunteer days with your safari.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Holiday Homes -->
+        <section id="homes" class="cards-section">
+            <div class="title">
+                <h1 class="font-color">KecomeX Holiday Homes Partnership</h1>
+                <div class="line"></div>
+                <p class="section-intro">Premium stays that meet our standards of safety, comfort, hygiene and hospitality.</p>
+            </div>
+            <div class="container grid cards-3">
+                <article class="info-card">
+                    <h4>Diani Beachfront Villas</h4>
+                    <p>Private pools, beach access and chef services.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Luxury & Boutique Hotels</h4>
+                    <p>Handpicked coastal and safari properties.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Safari Lodges & Tented Camps</h4>
+                    <p>Immersive wildlife stays with all comforts.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Executive City Apartments</h4>
+                    <p>Nairobi and Mombasa for business travelers.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Corporate Divisions -->
+        <section id="corporate" class="cards-section dark-surface">
+            <div class="title">
+                <h1 class="font-color">Powered by KecomeX Business Club International</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container grid cards-4">
+                <article class="info-card">
+                    <h4>iTarget Media Communications</h4>
+                    <p>Media relations, website design and digital marketing.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Kehosa Institute for Strategic Studies</h4>
+                    <p>Policy research, governance studies and strategic consulting.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Kehosa Capital Management</h4>
+                    <p>Financial services, SME support and investment advisory.</p>
+                </article>
+                <article class="info-card">
+                    <h4>KecomeX Tours & Safaris</h4>
+                    <p>Travel, tourism and hospitality backed by a global ecosystem.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Why Travel With Us -->
+        <section id="why" class="cards-section">
+            <div class="title">
+                <h1 class="font-color">Why Travel With KecomeX?</h1>
+                <div class="line"></div>
+            </div>
+            <div class="container grid cards-3">
+                <article class="info-card">
+                    <h4>Based in Diani</h4>
+                    <p>Kenya’s premier beach destination with quick access to safaris.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Personalized & Safe</h4>
+                    <p>Dedicated planners, vetted partners and multilingual guides.</p>
+                </article>
+                <article class="info-card">
+                    <h4>International Specialists</h4>
+                    <p>Visa support, airport assistance and 24/7 customer care.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Affordable to Luxury</h4>
+                    <p>Tailor-made packages for every traveler profile.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Community Impact</h4>
+                    <p>Travel that uplifts local communities and conservation.</p>
+                </article>
+                <article class="info-card">
+                    <h4>Seamless Logistics</h4>
+                    <p>Transfers, stays, experiences and support handled end-to-end.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="title">
+                <h1 class="font-color">Plan Your Trip</h1>
+                <div class="line"></div>
+            </div>
+            <div class="contact_us">
+                <form class="cform" action="" method="post">
+                    <div class="crow-message">
+                        <h1 class="color">Send us a message</h1>
+                        <div></div>
+                    </div>
+                    <div class="crow-in">
+                        <input type="text" id="name" name="name" placeholder="Your name" />
+                        <input type="text" id="email" name="email" placeholder="Your email" />
+                    </div>
+                    <div class="crow">
+                        <div class="ccol-left">
+                            <select name="country" id="country">
+                                <option value="Kenya">Kenya</option>
+                                <option value="United States">United States</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="Germany">Germany</option>
+                                <option value="France">France</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="crow">
+                        <div class="ccol-left">
+                            <textarea
+                                type="text"
+                                id="remarks"
+                                name="remarks"
+                                placeholder="Tell us about your ideal safari, beach, city or cultural experience..."
+                                style="height: 150px"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <input class="crow-s" type="submit" value="Submit" />
+                </form>
+                <div class="cbox">
+                    <div>
+                        <p class="cbox-message">
+                            Prefer another channel? Reach us anytime.
+                        </p>
+                        <div class="cbox-line"></div>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="mailto:info@kecomex.com"
+                            ><i class="fa fa-envelope"></i>
+                            Email: info@kecomex.com
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="tel:+254722655911"
+                            ><i class="fa fa-phone"></i>
+                            Phone: +254 722 655 911 | +254 713 825 084 | +254 713 825 573
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="#"
+                            ><i class="fa fa-map-marker"></i>
+                            Diani Beach, Kwale County, Kenya
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="https://kecomextours.com" target="_blank" rel="noreferrer"
+                            ><i class="fa fa-globe"></i>
+                            Website: www.kecomextours.com (placeholder)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact  -->
+
+        <!-- up scroll -->
+        <i class="arrow" onclick="topFunction()" id="upbtn"></i>
+        <!-- end -->
+
+        <!--footer-->
+        <section class="footer">
+            <span>KecomeX Tours and Safaris Limited | &#169; 2025 All rights reserved.</span>
+            <div class="social">
+                <li>
+                    <a href="mailto:info@kecomex.com" target="_blank" rel="noreferrer"
+                        ><i class="fa fa-envelope"></i
+                    ></a>
+                    <a href="https://kecomextours.com" target="_blank" rel="noreferrer"
+                        ><i class="fa fa-globe"></i
+                    ></a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"
+                        ><i class="fa fa-linkedin-square"></i
+                    ></a>
+                </li>
+            </div>
+        </section>
+        <!--footer-->
+
+        <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const navlinks = document.querySelector(".nav-links");
+
+            menuBtn.addEventListener("click", () => {
+                navlinks.classList.toggle("mobile-menu");
+            });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
